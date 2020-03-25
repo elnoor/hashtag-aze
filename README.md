@@ -28,7 +28,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 `Note: ` If you are building app to build Android app make sure you change `package.json` and add 
-  `"homepage": "file:///android_asset/"` after name of project.
+  `"homepage": "file:///android_asset/"` after name of project. Otherwise don't have that property, else it will break in Netlify or any other host provider as i won't have the right path.
   
 ### Font Awesome Icons in App
 
