@@ -21,7 +21,7 @@ export default function Hashtags(props) {
           className="btn btn-outline-secondary btn-block"
           onClick={() => props.changeView(VIEWS.categories)}
         >
-          <FontAwesomeIcon icon="angle-left" />
+        <FontAwesomeIcon icon="angle-left" />
         </button>
       </div>
       <div className="col-6">
