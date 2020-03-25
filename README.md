@@ -11,6 +11,9 @@ If there is no `assets` folder in Android Studio project add it by right clickin
 
 `Note:` To create WebView app refer to this [link](https://medium.com/@bydlocoder228/react-app-in-android-webview-678ae6e30b92) or use the source code of the app that is build for caps-az.
 
+`Note: ` If you are building React app to make Android app make sure you change `package.json` and add 
+  `"homepage": "file:///android_asset/"` after name of project.
+
 ### Building Production App
 
 `npm run build` builds the app for production to the `build` folder.<br />
