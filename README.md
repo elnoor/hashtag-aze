@@ -27,3 +27,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Font Awesome Icons in App
 
 Only Solid & Free icons is being used currently in app
+
+### Demo
