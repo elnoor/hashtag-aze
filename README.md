@@ -1,5 +1,5 @@
 ### Demo
-Check [https://hashtagman.netlify.com/](demo) from Netlify
+Check [demo](https://hashtagman.netlify.com/) from Netlify
 
 ### Data
 
