@@ -1,6 +1,6 @@
 ## Data
 
-Data.json is the source for the data. As default it will be used from local memory to populate all categories. Raw GitHub url of Data.json ([this](https://raw.githubusercontent.com/elnoor/hashtag-aze/master/src/Data.json))will also be used to simulate "fake" API. Meaning build production app will be able to be used just fine without requiring extra changes, but changing Data.json file in GitHub will allow the app to have updated data.
+Data.json is the source for the data. As default it will be used from local memory to populate all categories. Raw GitHub url of Data.json ([this](https://raw.githubusercontent.com/elnoor/hashtag-aze/master/src/Data.json)) will also be used to simulate "fake" API. Meaning build production app will be able to be used just fine without requiring extra changes, but changing Data.json file in GitHub will allow the app to have updated data.
 
 `Note:` Updating Data.json in GitHub will have a propagation time. Do not expect the app have the updated data right away.
 
