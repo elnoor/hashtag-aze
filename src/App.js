@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Categories from "./Categories.js";
 import Hashtags from "./Hashtags.js";
-import { data } from "./Data";
+import localData from "./Data.json";
+import axios from "axios";
+
+// Use the url of raw Data.json file from GitHub
+// Change data inside Data.json in GitHub - Simulating API
+const DATA_URL =
+  "https://raw.githubusercontent.com/elnoor/hashtag-aze/master/src/Data.json";
 
 export const VIEWS = {
   categories: "Kateqoriyalar",
@@ -10,8 +16,23 @@ export const VIEWS = {
 };
 
 export default function App() {
+  document.title = "Hashtag Aze";
+  const [data, setData] = useState(localData);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [view, setView] = useState(VIEWS.categories);
+
+  useEffect(() => {
+    axios
+      .get(DATA_URL)
+      .then(result => {
+        if (result.statusText.toUpperCase() === "OK" && result.data) {
+          setData(result.data);
+        }
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }, []);
 
   function changeView(_view) {
     setView(_view);
