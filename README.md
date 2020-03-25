@@ -1,5 +1,5 @@
 ### Demo
-Check [demo](https://hashtagman.netlify.com/) from Netlify
+Check <b>[demo](https://hashtagman.netlify.com/)</b> from Netlify
 
 ### Data
 
@@ -32,6 +32,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   
 ### Font Awesome Icons in App
 
-Only Solid & Free icons is being used currently in app
-
-### Demo
+Only [Solid & Free icons}(https://fontawesome.com/icons?d=gallery&s=solid&m=free) is being used currently in app
