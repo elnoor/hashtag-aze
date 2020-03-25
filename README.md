@@ -32,4 +32,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   
 ### Font Awesome Icons in App
 
-Only [Solid & Free icons}(https://fontawesome.com/icons?d=gallery&s=solid&m=free) is being used currently in app
+Only [Solid & Free icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free) is being used currently in app
