@@ -6,7 +6,7 @@ Data.json is the source for the data. As default it will be used from local memo
 
 ### Android App
 
-To build a WebView based Android app that works offline (without fetching from url) but uses local html/css/js file from Android memoy  create an empty WebView Android app and load url to webview like `webView.loadUrl("file:///android_asset/index.html)`.
+To build a WebView based Android app that works offline (without fetching from url) but uses local html/css/js files from Android memory  create an empty WebView Android app and load url to webview like `webView.loadUrl("file:///android_asset/index.html)`.
 If there is no `assets` folder in Android Studio project add it by right clicking on project and `New > Folder > Assets Folder`. It is also explained [here](https://abhiandroid.com/androidstudio/create-assets-folder-android-studio-html-files.html).
 
 `Note:` To create WebView app refer to this [link](https://medium.com/@bydlocoder228/react-app-in-android-webview-678ae6e30b92) or use the source code of the app that is build for caps-az.
