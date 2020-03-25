@@ -1,6 +1,6 @@
 {
   "name": "hashtag-aze",
-  "homepage": "file:///android_asset/",
+  // "homepage": "file:///android_asset/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
