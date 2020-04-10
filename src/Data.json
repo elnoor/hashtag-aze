@@ -1,39 +1,85 @@
 
 [
   {
-    "name": "Heyvanlar",
+    "name": "Animals",
     "color": "#FF9AA2",
     "icon": "paw",
-    "hashtags": ["bird", "dog", "fox"]
+    "hashtags": ["animal","animalword","animalkisses","animalista","animalsaddicts","animalfacepaint","animalsofimstagram","animalsadvocate","animalsaddict","animalcare","animalnation","animalflex","animalslivefree","animalblogger","animalflowonthebeach","animalswild","animalhospitals","animalcaptures","animalsmood","animalcrossingqrcode","animalkingdompandora","animalsafety","animaliermood","animalmask","animalcloseups","animald","animalhats","animalaugh","animalocs","AnimalHowze"],
+    "subCategories":[
+      {
+        "name": "Birds",
+        "color": "orange",
+        "icon": "dove",
+        "hashtags": ["birds", "BirdsOfInstagram", "birdwatching", "birdphotography", "birdstagram", "birding", "birdlovers", "birdseyeview", "birdlover", "birddog", "birdlife", "birdman", "birdie", "birdsofprey", "birdy", "birdfreaks", "birdgang", "birdofprey", "birddogoftheday", "birdart", "birdtattoo", "birdhouse", "birdcage", "birdwatcher", "birdextreme", "BirdsOfAFeather", "birdwatchers", "birdsofig", "birdies", "birdphoto"]
+      },
+      {
+        "name": "Fish",
+        "color": "limengreen",
+        "icon": "hashtag",
+        "hashtags": ["fish", "fishing", "fisherman", "fishinglife", "fisheye", "fishingtrip", "fishporn", "fishtank", "fishon", "fishnets", "fishingislife", "fishin", "fishingdaily", "fishbowlslime", "fishandchips", "fishingboat", "fishingday", "fishes", "fisher", "fishnet", "fishermen", "fishy", "fishingrod", "fishtail", "fishinggirl", "fishingpicoftheday", "fishmarket", "fisheyelemag", "fishermanswharf", "fishingtime"]
+      }
+    ]
   },
   {
-    "name": "Əyləncə",
+    "name": "Business",
     "color": "#FFDAC1",
-    "icon": "tshirt",
-    "hashtags": ["bowling", "soccer", "swimming"]
+    "icon": "money-bill-wave",
+    "hashtags": ["business", "Businessman", "businesswoman", "Businessowner", "businessowners", "businesscoach", "businesswomen", "businesslife", "businesstips", "businessminded", "businessopportunity", "businesscards", "businesspassion", "businessmen", "businesstrip", "businessquotes", "BusinessCard", "BusinessCasual", "BusinessDevelopment", "businessclass", "businesses", "businesscoaching", "businessgrowth", "businessmindset", "businessonline", "BusinessPlan", "businessgoals", "businesstip", "businesstravel", "businessmarketing"]
   },
   {
-    "name": "Texnologiya",
+    "name": "Technology",
     "color": "#E2F0CB",
     "icon": "laptop",
-    "hashtags": ["laptop", "iphone", "android"]
+    "hashtags": ["technology", "TechnologyRocks", "TechnologyTheseDays", "technologynews", "technologysolutions", "technologyfail", "technologyart", "technologytrends", "technologyr", "TechnologyIsAwesome", "technologysucks", "technologyhatesme", "technologyinnovation", "technologytoenjoy", "technologyaddict", "technologylover", "technologytuesday", "technologyrules", "technologywitch", "technologycompany", "technologytakeover", "technologybali", "TechnologyConsulting", "technologyeducation", "technologyfacts", "TechnologyforGood", "technologyfree", "technologyisamazing", "technologyiscool", "technologyjobs"],
+    "subCategories":[
+      {
+        "name": "Gaming",
+        "color": "burlywood",
+        "icon": "gamepad",
+        "hashtags": ["gaming", "gamingmemes", "gaminglife", "GamingPosts", "gamingsetup", "Gamingmeme", "gamingpc", "gamingcommunity", "gamingroom", "gamingrig", "gamingislife", "gamingnews", "gaminggear", "gamingchannel", "gamingmouse", "gaminggirl", "gamingaddict", "gamingart", "gamingphotography", "GamingPictures", "gamingchair", "gamingforlife", "gamingfolk", "gamingstation", "gamingheadset", "gamingkeyboard", "gamingbag", "gaming4life", "gamingcomputer", "gamingpost"]
+      },
+      {
+        "name": "Computers",
+        "color": "aqua",
+        "icon": "keyboard",
+        "hashtags": ["computer", "computers", "computerscience", "computerart", "computerrepair", "computergame", "computergraphics", "computergames", "ComputerEngineering", "computersetup", "computergeek", "computerprogramming", "computernerd", "computertechnology", "computertech", "computerlove", "computerhelp", "ComputerVision", "ComputerServices", "computergraphic", "computerhardware", "computerproblems", "computermouse", "computeraideddesign", "computerparts", "computerarts", "computerengineer", "computersupport", "computergaming", "computeranimation"]
+      },
+      {
+        "name": "Social Network",
+        "color": "gold",
+        "icon": "share-alt-square",
+        "hashtags": ["SocialNetworking", "socialnetwork", "socialnetworks", "socialnetworkmarketing", "socialnetworkdevelopment", "socialnetworksolutions", "socialnetworkin", "SOCIALNETWORKZ", "SocialNetworkMarketingHDI", "socialnetworkmanagement", "SocialNetworkingSite", "socialnetworkingjakarta", "socialnetworkguru", "socialnetworkg", "socialnetworkdraw", "socialnetworkcriminal", "SocialNetworkClothing", "socialnetworkanalysis"]
+      },
+      {
+        "name": "Android",
+        "color": "limegreen",
+        "icon": "robot",
+        "hashtags": ["android", "androidography", "androidonly", "androidapp", "androidnesia", "Android18", "androidinstagram", "androidcommunity", "androidographer", "androidgames", "ANDROIDO", "Androids", "androidgame", "android17", "androidphotography", "androidwear", "androidapps", "AndroidDev", "AndroidIndonesia", "androidstudio", "AndroidDeveloper", "androidgraphy", "androidphone", "androidoreo", "androidgaming", "androidphoto", "androidauthority", "androidmurah", "androiddevelopment", "AndroidOne"]
+      },
+      {
+        "name": "iPhone",
+        "color": "lightblue",
+        "icon": "mobile",
+        "hashtags": ["iphone", "iphoneonly", "iphonesia", "iphoneography", "iphone6", "iphonephotography", "iphone7plus", "iphone7", "iPhone6S", "iphonex", "iphone8", "iphonegraphy", "iPhone8plus", "iphone5s", "iphonecase", "iphone5", "iphone6plus", "iphonephoto", "iPhone6sPlus", "iphoneSE", "iphoneographer", "iphone4", "iphonepic", "iphoneology", "iphoneogram", "iphonegraphic", "iphoneographers", "iphones", "iphoneasia", "iphoneshot"]
+      }
+    ]
   },
   {
-    "name": "Musiqi",
+    "name": "Music",
     "color": "#B5EAD7",
     "icon": "music",
     "hashtags": ["song", "lyrics", "youtube"]
   },
   {
-    "name": "Idman",
+    "name": "Sports",
     "color": "#C7CEEA",
     "icon": "futbol",
     "hashtags": ["tv", "dance", "sport"]
   },
   {
-    "name": "Yemək",
+    "name": "Food",
     "color": "#FFB7B2",
     "icon": "coffee",
-    "hashtags": ["ayran", "doner", "burger"]
+    "hashtags": ["food", "foodie","foods","foodies","foodforthought","foodtruck","foodbeast","foody","foodoptimising","foodforfoodies","food52","foodnetwork","foodgawker","foodography","foodpassion"]
   }
 ]

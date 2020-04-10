@@ -12,8 +12,8 @@ const DATA_URL =
   "https://raw.githubusercontent.com/elnoor/hashtag-aze/master/src/Data.json";
 
 export const VIEWS = {
-  categories: "Kateqoriyalar",
-  hashtags: "Həşteqlər"
+  categories: "Categories",
+  hashtags: "Hashtags"
 };
 
 export default function App() {
