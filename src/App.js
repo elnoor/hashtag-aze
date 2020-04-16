@@ -4,7 +4,7 @@ import Categories from "./Categories.js";
 import Hashtags from "./Hashtags.js";
 import localData from "./Data.json";
 import axios from "axios";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Use the url of raw Data.json file from GitHub
 // Change data inside Data.json in GitHub - Simulating API
@@ -13,7 +13,7 @@ const DATA_URL =
 
 export const VIEWS = {
   categories: "Categories",
-  hashtags: "Hashtags"
+  hashtags: "Hashtags",
 };
 
 export default function App() {
@@ -26,16 +26,17 @@ export default function App() {
   useEffect(() => {
     axios
       .get(DATA_URL)
-      .then(result => {
+      .then((result) => {
         if (result.statusText.toUpperCase() === "OK" && result.data) {
           setData(result.data);
         }
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
-      }).then(()=>{
-        setLoading(false);
       })
+      .then(() => {
+        setLoading(false);
+      });
   }, []);
 
   function changeView(_view) {
@@ -63,12 +64,13 @@ export default function App() {
 
     return (
       <div className="App container">
-        <h4 className="bg-light mb-3 mt-2 mt-n1 mx-n3 pt-2 px-2 py-1 text-center text-secondary border-bottom">
-          {loading && 
-          <FontAwesomeIcon icon="spinner" spin size='xs' className="mr-2"/>}
+        <h4 className="header bg-light border-bottom mb-3 position-fixed px-2 py-1 text-center text-secondary w-100">
+          {loading && (
+            <FontAwesomeIcon icon="spinner" spin size="xs" className="mr-2" />
+          )}
           {view}
         </h4>
-        {viewContent}
+        <div className="mt-5">{viewContent}</div>
       </div>
     );
   }
